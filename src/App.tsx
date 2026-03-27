@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import TimesheetForm from "./components/TimesheetForm";
+import TimesheetTable from "./components/TimesheetTable";
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-2xl font-bold">Employee Timesheet Management</h1>
+      <Header />
+      <TimesheetForm />
+      <TimesheetTable />
     </div>
   );
 }
